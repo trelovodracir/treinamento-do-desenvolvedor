@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de Dados</title>
+</head>
+<body>
+	<input type="number" id="num1">
+	<input type="number" id="num2">
+	<button onclick="somar()">Somar</button>
+	<p id="resultado"></p>
+	
+	<script>
+	    function somar() {
+	        var num1 = parseInt(document.getElementById("num1").value);
+	        var num2 = parseInt(document.getElementById("num2").value);
+	        var resultado = num1 + num2;
+	        document.getElementById("resultado").textContent = "Resultado: " + resultado;
+	    }
+	</script>
+</body>
+</html>

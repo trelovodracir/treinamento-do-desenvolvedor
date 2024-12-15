@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações e Efeitos Dinâmicos</title>
+</head>
+	<div id="caixa" style="width: 100px; height: 100px; background-color: green;"></div>
+	<button onclick="desaparecer()">Desaparecer</button>
+	
+	<script>
+	    function desaparecer() {
+	        var caixa = document.getElementById("caixa");
+	        caixa.style.transition = "opacity 1s";
+	        caixa.style.opacity = 0;
+	    }
+	</script>
+</body>
+</html>

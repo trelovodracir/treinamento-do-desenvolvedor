@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo Completo de HTML com JS</title>
+</head>
+<body>
+  <h1>Exemplo de Lógica com JavaScript</h1>
+
+  <!-- Entrada de dados -->
+  <div>
+    <label for="numero">Digite um número (inteiro):</label>
+    <input type="number" id="numero" placeholder="Ex: 5">
+    <button onclick="processarNumero()">Processar</button>
+  </div>
+
+  <!-- Resultado -->
+  <h2>Resultados:</h2>
+  <div id="resultado" style="border: 1px solid #ccc; padding: 10px; margin-top: 10px;"></div>
+
+  <script>
+    // Função principal chamada pelo botão
+    function processarNumero() {
+      const input = document.getElementById('numero').value;
+      const numero = parseInt(input);
+
+      if (isNaN(numero)) {
+        alert('Por favor, insira um número válido.');
+        return;
+      }
+
+      let resultado = `<p><strong>Número inserido:</strong> ${numero}</p>`;
+
+      // Condicional IF/ELSE
+      if (numero % 2 === 0) {
+        resultado += `<p>O número ${numero} é <strong>par</strong>.</p>`;
+      } else {
+        resultado += `<p>O número ${numero} é <strong>ímpar</strong>.</p>`;
+      }
+
+      // Switch para faixa de valores
+      switch (true) {
+        case numero > 0 && numero <= 10:
+          resultado += `<p>O número está entre 1 e 10.</p>`;
+          break;
+        case numero > 10 && numero <= 20:
+          resultado += `<p>O número está entre 11 e 20.</p>`;
+          break;
+        default:
+          resultado += `<p>O número está fora da faixa de 1 a 20.</p>`;
+          break;
+      }
+
+      // Laço FOR (tabuada)
+      resultado += `<p><strong>Tabuada do número:</strong></p><ul>`;
+      for (let i = 1; i <= 10; i++) {
+        resultado += `<li>${numero} x ${i} = ${numero * i}</li>`;
+      }
+      resultado += `</ul>`;
+
+      // Operadores lógicos e WHILE (contagem regressiva)
+      let contagem = numero;
+      resultado += `<p><strong>Contagem regressiva:</strong></p><ul>`;
+      while (contagem >= 0) {
+        resultado += `<li>${contagem}</li>`;
+        contagem--;
+      }
+      resultado += `</ul>`;
+
+      // Operações matemáticas e função personalizada
+      resultado += `<p><strong>Raiz quadrada:</strong> ${Math.sqrt(numero).toFixed(2)}</p>`;
+      resultado += `<p><strong>Potência ao quadrado:</strong> ${Math.pow(numero, 2)}</p>`;
+
+      // Exemplo de função com operador ternário
+      resultado += `<p>${numero >= 0 ? 'O número é positivo ou zero.' : 'O número é negativo.'}</p>`;
+
+      // Mostrar o resultado na página
+      document.getElementById('resultado').innerHTML = resultado;
+    }
+  </script>
+</body>
+</html>

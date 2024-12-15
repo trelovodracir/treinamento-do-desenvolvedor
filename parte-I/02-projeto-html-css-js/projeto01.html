@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Cor de Fundo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s ease;
+        }
+
+        .button-container {
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .red { background-color: red; color: white; }
+        .blue { background-color: blue; color: white; }
+        .green { background-color: green; color: white; }
+        .yellow { background-color: yellow; color: black; }
+        .purple { background-color: purple; color: white; }
+        .orange { background-color: orange; color: white; }
+    </style>
+</head>
+<body>
+
+    <h1>Alterar Cor de Fundo</h1>
+    <div class="button-container">
+        <button class="red" onclick="alterarCor('red')">Vermelho</button>
+        <button class="blue" onclick="alterarCor('blue')">Azul</button>
+        <button class="green" onclick="alterarCor('green')">Verde</button>
+        <button class="yellow" onclick="alterarCor('yellow')">Amarelo</button>
+        <button class="purple" onclick="alterarCor('purple')">Roxo</button>
+        <button class="orange" onclick="alterarCor('orange')">Laranja</button>
+    </div>
+
+    <script>
+        // Função que altera a cor de fundo conforme o botão clicado
+        function alterarCor(cor) {
+            document.body.style.backgroundColor = cor;
+        }
+    </script>
+
+</body>
+</html>
