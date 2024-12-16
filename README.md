@@ -26,7 +26,7 @@ Este é um pequeno repositório de anotações que irei fazer até me sentir con
 ### 16-dez-2024 
 *(faltam 9 dias para o aniversário de 297 do nascimento de Isaac Newton!) - Ano: 296 a.N. (After Newton) - Merry Newton"mass"*
 
-**Parte II**: A primeira parte deste treinamento meu procura estudar os seguintes itens:
+**Parte II**: A segunda parte deste treinamento meu procura estudar os seguintes itens:
 - React: Biblioteca
 - TailwindCSS: framework CSS (necessita do `postcss` e  `autoprefixer`)
 - Vite: Ferramenta de Build e DEV
