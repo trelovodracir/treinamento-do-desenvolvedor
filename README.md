@@ -23,10 +23,17 @@ Este é um pequeno repositório de anotações que irei fazer até me sentir con
 - API RESTful (interface de programação de aplicações - API)
 - Express: Framework
 
-### Atualmente
+### 16-dez-2024 
+*(faltam 9 dias para o aniversário de 297 do nascimento de Isaac Newton!) - Ano: 296 a.N. (After Newton) - Merry Newton"mass"*
 
-... A parte II focará em React, Vite, MongoDB e PostgreSQL, pelo menos:
+**Parte II**: A primeira parte deste treinamento meu procura estudar os seguintes itens:
 - React: Biblioteca
+- TailwindCSS: framework CSS (necessita do `postcss` e  `autoprefixer`)
 - Vite: Ferramenta de Build e DEV
-- MongoDB: Banco de Dados NoSQL
-- PostgreSQL: Banco de Dados SQL
+- SWC: Transpilador
+- React Router v7: biblioteca que permite gerenciar a navegação entre páginas ou componentes no React. Ele possibilita criar um site **SPA (Single Page Application)**, onde a navegação entre "páginas" ocorre sem recarregar o navegador.
+- React Helmet: biblioteca que permite gerenciar as meta tags do HTML
+
+### em andamento
+
+... neste momento inicializarei o desenvolvimento de um projeto/repositório utilizando os recursos até aqui vistos, utilizando abordagens modernas e tendo como start o `projeto-livre` inicialmente desenvolvido na Parte II.
