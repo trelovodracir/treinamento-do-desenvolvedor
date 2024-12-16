@@ -1,0 +1,62 @@
+{
+  "home": {
+    "title": "Página Inicial",
+    "description": "Bem-vindo ao meu site! Aqui você encontra meu portfólio, experiências e muito mais.",
+    "keywords": "portfólio, desenvolvedor, projetos",
+    "themeColor": "#000000",
+    "og": {
+      "title": "Meu Portfólio",
+      "type": "website",
+      "url": "https://meusite.com",
+      "image": "https://meusite.com/assets/images/home-og-image.jpg"
+    }
+  },
+  "aboutMe": {
+    "title": "Sobre Mim",
+    "description": "Conheça mais sobre minha trajetória profissional e habilidades.",
+    "keywords": "sobre mim, carreira, desenvolvedor",
+    "themeColor": "#123456",
+    "og": {
+      "title": "Sobre Mim - Meu Portfólio",
+      "type": "website",
+      "url": "https://meusite.com/sobre",
+      "image": "https://meusite.com/assets/images/about-og-image.jpg"
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "description": "Entre em contato para parcerias, projetos ou oportunidades.",
+    "keywords": "contato, email, redes sociais",
+    "themeColor": "#654321",
+    "og": {
+      "title": "Contato - Meu Portfólio",
+      "type": "website",
+      "url": "https://meusite.com/contato",
+      "image": "https://meusite.com/assets/images/contact-og-image.jpg"
+    }
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "description": "Explore meus projetos e veja minhas habilidades em ação.",
+    "keywords": "portfólio, projetos, experiência",
+    "themeColor": "#FF5733",
+    "og": {
+      "title": "Portfólio - Meu Portfólio",
+      "type": "website",
+      "url": "https://meusite.com/portfolio",
+      "image": "https://meusite.com/assets/images/portfolio-og-image.jpg"
+    }
+  },
+  "myTimeline": {
+    "title": "Minha Jornada",
+    "description": "Veja minha linha do tempo com experiências profissionais e pessoais.",
+    "keywords": "linha do tempo, carreira, experiências",
+    "themeColor": "#C70039",
+    "og": {
+      "title": "Minha Jornada - Meu Portfólio",
+      "type": "website",
+      "url": "https://meusite.com/timeline",
+      "image": "https://meusite.com/assets/images/timeline-og-image.jpg"
+    }
+  }
+}
