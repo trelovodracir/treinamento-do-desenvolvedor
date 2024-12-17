@@ -37,3 +37,14 @@ Este é um pequeno repositório de anotações que irei fazer até me sentir con
 ### em andamento
 
 ... neste momento inicializarei o desenvolvimento de um projeto/repositório utilizando os recursos até aqui vistos, utilizando abordagens modernas e tendo como start o `projeto-livre` inicialmente desenvolvido na Parte II.
+
+
+## Star History
+
+<a href="https://star-history.com/#trelovodracir/treinamento-do-desenvolvedor&Timeline">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=trelovodracir/treinamento-do-desenvolvedor&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=trelovodracir/treinamento-do-desenvolvedor&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=trelovodracir/treinamento-do-desenvolvedor&type=Timeline" />
+ </picture>
+</a>
